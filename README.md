@@ -21,7 +21,7 @@ With this framework I am exposing the LLM's scratchpad,  giving us insight into 
 
 ## What is Metacognitive Prompting
 
-Metacognitive Prompting is a framework intended to mimic the way a human being reasons. In the paper [Metacognitive Prompting Improves Understanding in Large Language Models](https://arxiv.org/abs/2308.05342) Yuqing WAng describes MP as:
+Metacognitive Prompting is a framework intended to mimic the way a human being reasons. In the paper [Metacognitive Prompting Improves Understanding in Large Language Models](https://arxiv.org/abs/2308.05342) Yuqing Wang describes MP as:
 > Derived from cognitive psychology, metacognition relates to an individual’s awareness and self-reflection on their cognitive processes. Our ap-proach integrates key aspects of human metacognitive processes into LLMs.
 
 ## Research Background
@@ -37,9 +37,9 @@ My initial idea for utilizing scratchpads to expose LLM reasoning and output com
 
 
 My introduction to Metacognitive Prompting / Thought Calibration come from these three sources:
-[Thought calibration: Efficient and confident test-time scaling](https://arxiv.org/abs/2308.05342)
-[Metacognitive Prompting Improves Understanding in Large Language Models](https://arxiv.org/abs/2308.05342)
-[Para-Droid-AI's Scratchpad project on GitHub](https://github.com/para-droid-ai/scratchpad/blob/main/README.md)
+* [Thought calibration: Efficient and confident test-time scaling](https://arxiv.org/abs/2308.05342)
+* [Metacognitive Prompting Improves Understanding in Large Language Models](https://arxiv.org/abs/2308.05342)
+* [Para-Droid-AI's Scratchpad project on GitHub](https://github.com/para-droid-ai/scratchpad/blob/main/README.md)
 
 
 ## Usage
