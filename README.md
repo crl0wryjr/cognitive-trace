@@ -49,14 +49,14 @@ These sources, as well as several others, position Metacognitive Prompting & Tho
 
 ### Cognitive Trace - Proof of Concept
 1. Paste the contents of "Prompt - CognitiveTrace.md" into a GPT conversation (do **NOT** submit)
-2. Add the remainder of your prompt, followed with [s],[m], or [l]
+2. Add the remainder of your prompt, followed with [S],[M], or [L]
 3. Submit prompt
 
 #### Example 
 ``` TEXT
 {pasted Prompt - CognitiveTrace.md}
 
-Explain how AI based SEO will change traditional SEO [l]
+Explain how AI based SEO will change traditional SEO [L]
 
 <ENTER>
 ```
