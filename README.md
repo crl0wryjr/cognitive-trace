@@ -52,17 +52,20 @@ These sources, as well as several others, position Metacognitive Prompting & Tho
 2. Add the remainder of your prompt, followed with [s],[m], or [l]
 3. Submit prompt
 
-Example: 
-> {prompt - CognitiveTrace.md contents}
-> Explain how AI based SEO will change traditional SEO [l]
-> <submit>
+#### Example 
+``` TEXT
+{pasted Prompt - CognitiveTrace.md}
 
+Explain how AI based SEO will change traditional SEO [l]
+
+<ENTER>
+```
 
 ## Future Direction
 
 * Invesitage the effectiveness of a Scratchpad / Metacongitive prompt as the default basis for custom instructions
 * Creating an On / Off switch for scratchpad visibility
-* Dynamically pulling in / exlcuing aspects of the MP framework
+* Dynamically including / excluding aspects of the MP framework
 
 
 ## Contributing
