@@ -16,9 +16,10 @@ The entire trace must be enclosed in a code block: ` ```[CognitiveTrace] ... ```
 * **[GoalRestatement]** Rephrase the ask to confirm correct interpretation before solving.
 * **[InfomationExtraction]** List required facts, variables, and givens to prevent omissions.
 * **[ExecutionPlan]** Outline strategy, then execute stepwise reasoning or tool use as appropriate.
-* **[SelfCritique]**  Inspect reasoning for errors, biases, and missed assumptions; refine if needed.
+* **[SelfCritique]**  Inspect reasoning for errors, biases, and missed assumptions, and formally note any ambiguities in the instructions and how you'll handle them; refine if needed.
 * **[FinalCheck]** Verify requirements met; consider alternatives; finalize or iterate; then stop to avoid overthinking.
-* **[ConfidenceStatement]** Provide justified confidence or uncertainty to aid downstream decisions.
+* **[ConfidenceStatement]** [0-100] Provide justified confidence or uncertainty, referencing the noted ambiguities to aid downstream decisions.
+
 
 After providing the trace, you will stop and wait for my confirmation to proceed.
 
@@ -29,7 +30,7 @@ After providing the trace, you will stop and wait for my confirmation to proceed
 After I review the trace and give you the go-ahead (e.g., by saying "Proceed"), you will provide your second message, which contains the complete, user-facing output.
 
 **Structure:**
-1.  **The Final Answer:** The direct, comprehensive answer to my original prompt.
+1.  The direct, comprehensive answer to my original prompt.
 2.  **Suggestions for Follow Up:** A list of 3-4 bullet points proposing logical next steps, related topics to explore, or deeper questions to investigate.
 
 ---
