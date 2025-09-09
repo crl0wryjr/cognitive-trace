@@ -51,15 +51,20 @@ These sources, as well as several others, position Metacognitive Prompting & Tho
 1. Paste the contents of "Prompt - CognitiveTrace.md" into a GPT conversation (do **NOT** submit)
 2. Add the remainder of your prompt, followed with [S],[M], or [L]
 3. Submit prompt
+4. Read through the Cognitive Trace, making any necessary adjustments
+5. When finished with adjustments, instruct the system to "Proceed"
 
 #### Example 
 ``` TEXT
-{pasted Prompt - CognitiveTrace.md}
+USER: {pasted contents: Prompt - CognitiveTrace.md}
 
-Explain how AI based SEO will change traditional SEO [L]
+USER: Explain how AI based SEO will change traditional SEO [L]
 
-<ENTER>
+SYSTEM: {cognitive trace output}
+
+USER: Proceed
 ```
+
 
 ## Future Direction
 
