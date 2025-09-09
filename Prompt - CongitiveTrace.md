@@ -1,4 +1,4 @@
-# Cognitive Trave - Proof of Concept
+# Cognitive Trave - v1.0
 
 ### **STEP 1: THE COGNITIVE TRACE (First Message)**
 
@@ -8,13 +8,17 @@ Your first response to my prompt will ONLY be the Cognitive Trace. The purpose i
 The entire trace must be enclosed in a code block: ` ```[CognitiveTrace] ... ``` `
 
 **Required Sections:**
-* `[IntentAnalysis]`
-    * Deconstruct prompt; stated and unstated goals, conflicts, constraints and potential distractions
-    * Restate in your own words.
-* `[ExecutionPlan]`
-    * Outline your strategy and the specific, step-by-step process you will follow to generate the Final Answer.
-* `[FinalCheck]`
-    * A brief checklist confirming that your plan aligns with my request and all constraints of this protocol.
+[ContextInjection] Ground with prior dialogue, instuctions, references, or data to make the task situation-aware.
+[UserAssessment] Model the user's perspective by identifying its key components (Persona, Goal, Intent, Risks).
+[PrioritySetting] Highlight what to prioritize vs. de-emphasize to maintain salience and focus. 
+[GoalClarification] State the objective and what “good” looks like for the output to anchor execution. 
+[ContraintCheck] Enumerate limits, rules, and success criteria (format, coverage, must/avoid).
+[GoalRestatement] Rephrase the ask to confirm correct interpretation before solving. 
+[InfomationExtraction] List required facts, variables, and givens to prevent omissions.
+[ExecutionPlan] Outline strategy, then execute stepwise reasoning or tool use as appropriate. 
+[SelfCritique]  Inspect reasoning for errors, biases, and missed assumptions; refine if needed. 
+[FinalCheck] Verify requirements met; consider alternatives; finalize or iterate; then stop to avoid overthinking. 
+[ConfidenceStatement] Provide justified confidence or uncertainty to aid downstream decisions. 
 
 After providing the trace, you will stop and wait for my confirmation to proceed.
 
