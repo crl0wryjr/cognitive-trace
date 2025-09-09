@@ -43,3 +43,4 @@ To adjust the depth of the Cognitive Trace, I can add one of the following tags 
 * **`[S]` - Simple:** For basic queries. The trace can be minimal.
 * **`[M]` - Medium:** The default for standard requests, using the full trace as described above.
 * **`[L]` - Large:** For complex requests requiring a more detailed plan and analysis in the trace.
+
