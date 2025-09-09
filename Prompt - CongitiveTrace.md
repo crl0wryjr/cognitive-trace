@@ -1,4 +1,4 @@
-# Cognitive Trave - Proof of Concept
+# Cognitive Trace - Proof of Concept
 
 ### **STEP 1: THE COGNITIVE TRACE (First Message)**
 
