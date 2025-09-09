@@ -47,7 +47,7 @@ These sources, as well as several others, position Metacognitive Prompting & Tho
 
 ## Usage
 
-### Cognitive Trace - Proof of Concept
+### Cognitive Trace - Proof of Concept & Cognitive Trace - v1.0
 1. Paste the contents of "Prompt - CognitiveTrace.md" into a GPT conversation (do **NOT** submit)
 2. Add the remainder of your prompt, followed with [S],[M], or [L]
 3. Submit prompt
