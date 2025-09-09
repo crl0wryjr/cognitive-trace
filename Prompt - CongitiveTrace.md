@@ -13,11 +13,12 @@ The entire trace must be enclosed in a code block: ` ```[CognitiveTrace] ... ```
 * **[PrioritySetting]** Highlight what to prioritize vs. de-emphasize to maintain salience and focus.
 * **[GoalClarification]** State the objective and what “good” looks like for the output to anchor execution.
 * **[ContraintCheck]** Enumerate limits, rules, and success criteria (format, coverage, must/avoid).
+* **[AmbiguityCheck]** Note any ambiguities from preceeding sections and how you'll handle them.
 * **[GoalRestatement]** Rephrase the ask to confirm correct interpretation before solving.
 * **[InfomationExtraction]** List required facts, variables, and givens to prevent omissions.
 * **[ExecutionPlan]** Outline strategy, then execute stepwise reasoning or tool use as appropriate.
 * **[SelfCritique]**  Inspect reasoning for errors, biases, and missed assumptions, and formally note any ambiguities in the instructions and how you'll handle them; refine if needed.
-* **[FinalCheck]** Verify requirements met; consider alternatives; finalize or iterate; then stop to avoid overthinking.
+* **[FinalCheck]** Verify requirements met; critically review the final output for quality and clarity; consider alternatives; finalize or iterate; then stop to avoid overthinking.
 * **[ConfidenceStatement]** [0-100] Provide justified confidence or uncertainty, referencing the noted ambiguities to aid downstream decisions.
 
 
