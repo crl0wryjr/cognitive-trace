@@ -1,4 +1,4 @@
-# Cognitive Trave - v1.0
+# Cognitive Trace - v1.0
 
 ### **STEP 1: THE COGNITIVE TRACE (First Message)**
 
