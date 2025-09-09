@@ -4,25 +4,52 @@
 
 The Cognitive Trace project creates a framework for exposing the reasoning patterns, strategies, and execution steps that Large Language Models (LLMs) use when responding to prompts. By providing visibility into what is typically a black-box process, this tool enables users to inspect the 'how and why' behind LLM responses, making it an invaluable resource for prompt debugging and optimization.
 
-There are two main components to this framework:  Scratchpads and Metacognitive Prompting.
 
-## What are Scratchpads?
+## Usage
+
+#### Cognitive Trace - v1.0 & Cognitive Trace - Proof of Concept
+1. Paste the contents of "Prompt - CognitiveTrace.md" into a GPT conversation (do **NOT** submit)
+2. Add the remainder of your prompt, followed with [S],[M], or [L]
+4. Read through the cognitive trace, making corrections and updates as needed
+5. Tell the system to "Proceed"
+
+#### Example 
+``` TEXT
+USER PASTED:  {Prompt - CognitiveTrace.md}
+
+USER TYPED:  Explain how AI based SEO will change traditional SEO [L] <ENTER>
+
+SYSTEM RESPONSE:  {cognitive trace output}
+
+USER TYPED:  Proceed <ENTER>
+```
+
+
+## There are two main components to this framework:  Scratchpads and Metacognitive Prompting.
+
+### What are Scratchpads?
 
 Scratchpads are a type of working memory available to LLMs, most often used in _Chain of ..._ style prompts. With many LLMs this feature is turned off by deafult, and even when enabled, the contents of the scratchpad is not usually shared with the user.
 
 With this framework I am exposing the LLM's scratchpad,  giving us insight into the reasoning processes thats occur during response generation. Think of this as a debugging tool for AI-generated output.
 
-## Key Features
+### Key Features
 
 - **Reasoning Transparency**: Visual inspection of LLM decision-making processes
 - **Strategy Analysis**: Understanding of different reasoning strategies employed by LLMs
 - **Execution Step Tracking**: Detailed view of how LLMs approach complex problems
 
-## What is Metacognitive Prompting
+### What is Metacognitive Prompting
 
 Metacognitive Prompting is a framework intended to mimic the way a human being reasons. 
 In the paper [Metacognitive Prompting Improves Understanding in Large Language Models](https://arxiv.org/abs/2308.05342) Yuqing Wang describes MP as:
 > Derived from cognitive psychology, metacognition relates to an individual’s awareness and self-reflection on their cognitive processes. Our approach integrates key aspects of human metacognitive processes into LLMs.
+
+### Key Features
+
+- **Improved Reliability**: Metacognition techniques have shown improvements in the accuracy of  _Chain of ..._ style prompts
+- **Improved Readability**: Well defined sections & guidelines
+
 
 ## Research Background
 
@@ -45,22 +72,6 @@ My introduction to Metacognitive Prompting / Thought Calibration primarily comes
 These sources, as well as several others, position Metacognitive Prompting & Thought Calibration as a means of dramatically improving an LLM's execution of complext tasks, by mimicing a human reasoning process;  as opposed to the linear, next-token based reasoning that is default. I have not performed any testing of my own, relying instead on the well documented and peer reviewed research of those far more knowledgeable than me. My initial goal has been the use of MP / TC as a formatting structure allowing for easy scanability of the exposed scratchpad. As I evolve the framework I will likely investigate real world performance & reliability.
 
 
-## Usage
-
-### Cognitive Trace - v1.0 & Cognitive Trace - Proof of Concept
-1. Paste the contents of "Prompt - CognitiveTrace.md" into a GPT conversation (do **NOT** submit)
-2. Add the remainder of your prompt, followed with [S],[M], or [L]
-3. Submit prompt
-
-#### Example 
-``` TEXT
-{pasted Prompt - CognitiveTrace.md}
-
-Explain how AI based SEO will change traditional SEO [L]
-
-<ENTER>
-```
-
 ## Future Direction
 
 * Invesitage the effectiveness of a Scratchpad / Metacongitive prompt as the default basis for custom instructions
@@ -71,6 +82,7 @@ Explain how AI based SEO will change traditional SEO [L]
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
+
 
 ## License
 
