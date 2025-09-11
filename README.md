@@ -74,6 +74,7 @@ These sources, as well as several others, position Metacognitive Prompting & Tho
 
 ## Future Direction
 
+* Linguistic copression and prompt optimizations
 * Invesitage the effectiveness of a Scratchpad / Metacongitive prompt as the default basis for custom instructions
 * Creating an On / Off switch for scratchpad visibility
 * Dynamically including / excluding aspects of the MP framework
