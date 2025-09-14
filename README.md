@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Cognitive Trace project creates a framework for exposing the reasoning patterns, strategies, and execution steps that Large Language Models (LLMs) use when responding to prompts. By providing visibility into what is typically a black-box process, this tool enables users to inspect the 'how and why' behind LLM responses, making it an invaluable resource for prompt debugging and optimization.
+Cognitive Trace is a framework for exposing the reasoning patterns, strategies, and execution steps that Large Language Models (LLMs) use when responding to prompts. By providing visibility into what is typically a black-box process, this framework enables users to inspect the 'how and why' behind LLM responses, making it an invaluable resource for prompt debugging and optimization.
 
 
 ## Usage
